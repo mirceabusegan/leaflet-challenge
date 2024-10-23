@@ -1,0 +1,28 @@
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#map {
+  height: 100%;
+}
+
+.legend {
+  background: #d42020;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.legend i {
+  width: 20px; /* Set a width */
+  height: 20px; /* Set a height */
+  display: inline-block; /* Make it inline-block */
+  margin-right: 5px; /* Space between color box and text */
+}
